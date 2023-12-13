@@ -1,0 +1,73 @@
+#ex01 .box:hover {
+  background: #124559;
+}
+
+#ex02 .box {
+  transition-duration: 1s;
+}
+
+#ex02 .box:hover {
+  background: #124559;
+}
+
+#ex03 .box {
+  transition-duration: 2s;
+}
+
+#ex03 .box:hover {
+  background: #124559;
+}
+
+#ex04 .box {
+  transition-duration: 1s;
+}
+
+#ex04 .box:hover {
+  background: #124559;
+  color: antiquewhite;
+}
+
+#ex05 .box {
+  transition-duration: 1s;
+  transition: color 2s;
+}
+
+#ex05 .box:hover {
+  background: #124559;
+  color: antiquewhite;
+}
+
+#ex06 .box {
+  transition-duration: 1s;
+}
+
+#ex06 .wrapper:hover .box {
+  background: #124559;
+}
+
+#ex07 .box:nth-child(1) {
+  transition-duration: 0, 2s;
+}
+#ex07 .box:nth-child(2) {
+  transition-duration: 0, 5s;
+}
+#ex07 .box:nth-child(3) {
+  transition-duration: 1s;
+}
+
+#ex07 .wrapper:hover .box {
+  background: #124559;
+}
+
+#ex08 .box {
+  transition-duration: 1s;
+}
+
+#ex08 .wrapper:hover .box {
+  background: antiquewhite;
+  color: #124559;
+}
+
+#ex08 .wrapper:hover {
+  background: #124559;
+}
