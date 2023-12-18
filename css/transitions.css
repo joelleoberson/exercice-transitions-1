@@ -71,3 +71,41 @@
 #ex08 .wrapper:hover {
   background: #124559;
 }
+
+#ex09 .box {
+  transition-duration: 1s;
+}
+
+#ex09 .wrapper:hover .box {
+  background: antiquewhite;
+  color: #124559;
+}
+
+#ex09 .wrapper:hover {
+  background: #124559;
+}
+
+#ex10 .box {
+  transition-duration: 1s;
+}
+
+#ex10 .box:hover {
+  background: #124559;
+  transform: translateY(+100%);
+}
+
+#ex11 .box {
+  transition-duration: 1s;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}
+
+#ex12 .box {
+  transition-duration: 0, 5s;
+}
+
+#ex12 .box:hover {
+  transform: scale(1.2);
+}
